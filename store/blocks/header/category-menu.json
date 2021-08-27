@@ -6,7 +6,8 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "menu-item#leads"
     ]
   },
   "menu-item#category-apparel": {
@@ -102,6 +103,21 @@
         "noFollow": false,
         "tagTitle": "Home & Decor",
         "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#leads": {
+    "props": {
+      "id": "menu-item-leads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/leads",
+        "noFollow": false,
+        "tagTitle": "Leads",
+        "text": "Torne-se um cliente"
       }
     }
   },
