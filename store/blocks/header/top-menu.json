@@ -2,7 +2,8 @@
   "vtex.menu@2.x:menu#websites": {
     "children": [
       "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#about-us",
+      "menu-item#leads"
     ]
   },
   "menu-item#shop": {
@@ -17,6 +18,21 @@
         "noFollow": false,
         "tagTitle": "Shop",
         "text": "Shop"
+      }
+    }
+  },
+  "menu-item#leads": {
+    "props": {
+      "id": "menu-item-leads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/leads",
+        "noFollow": false,
+        "tagTitle": "Leads",
+        "text": "Torne-se um cliente"
       }
     }
   },
