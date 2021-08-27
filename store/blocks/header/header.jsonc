@@ -92,8 +92,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "url": "assets/logo.png",
+      "width": "60"
     }
   },
   "header-layout.mobile": {
@@ -125,6 +125,7 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
+      "menu-item#leads",
       "menu-item#more"
     ],
     "props": {
@@ -136,8 +137,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+      "url": "assets/logo.png",
+      "width": "40"
     }
   }
 }
