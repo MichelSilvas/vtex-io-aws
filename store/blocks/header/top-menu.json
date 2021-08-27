@@ -2,7 +2,7 @@
   "vtex.menu@2.x:menu#websites": {
     "children": [
       "menu-item#shop",
-      "menu-item#about-us"
+      "minicart.v2"
     ]
   },
   "menu-item#shop": {
