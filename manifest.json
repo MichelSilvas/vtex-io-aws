@@ -1,5 +1,5 @@
 {
-  "vendor": "vtex",
+  "vendor": "hiringcoders202114",
   "name": "store-theme",
   "version": "4.4.2",
   "builders": {
@@ -62,7 +62,8 @@
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x"
+    "vtex.css-handles": "1.x",
+    "vtex.store-newsletter": "1.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x"
