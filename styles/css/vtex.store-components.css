@@ -1,3 +1,27 @@
+.infoCardCallActionContainer :global(.vtex-button__label) {
+  background-image: url(assets/arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: .8rem;
+  margin-right: 1rem;
+  transition: .2s;
+}
+
+.infoCardCallActionContainer :global(.vtex-button__label):hover {
+  background-image: url(assets/arrowWhite.png);
+}
+.infoCardCallActionContainer :global(.vtex-button) {
+  background: none;
+  border: none;
+  transition: .2s;
+  color: #5965e0;
+}
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  background: #5965e0;
+  color: #fff;
+  border: none;
+}
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
