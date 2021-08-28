@@ -112,6 +112,10 @@
   padding-top: 0px;
 }
 
+.productBrand {
+  color: #ccc;
+}
+
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
@@ -119,6 +123,18 @@
 
 .skuSelectorContainer {
   margin: 1rem 0;
+}
+
+.shoppingContainer {
+  color: #ccc;
+}
+
+.productDescriptionTitle {
+  color: #ddd;
+}
+
+.content {
+  color: #ccc;
 }
 
 
@@ -236,5 +252,4 @@
     width: 10rem;
     margin-left: 4rem;
   }
-
 }
