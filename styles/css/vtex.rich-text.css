@@ -87,4 +87,42 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+    .paragraph--region {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color:#232f3e;
+    font-weight:bold;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .container{
+    color: #232f3e;
+    align-items: center;
+    background-color: #dddddd;
+  }
+  .container--text {
+    background-color: #232f3e;
+  }
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#dddddd;
+}
+.paragraph--region2{
+  font-family: AmazonEmberRegular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color:#232f3e;
+    text-align:center;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    width: 1000px
+}
+.wrapper {
+  margin-left:auto;
+  margin-right:auto
+}
 }

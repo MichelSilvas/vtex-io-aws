@@ -1,0 +1,13 @@
+.styledLinkContent {
+    color:#ffffff;
+    font-family:'Lato', sans-serif;;
+    font-size: 15px;
+    font-weight:400;
+
+    }
+    .menuItem {
+    width: 100px;
+    }
+    .menuContainerNav {
+     color:#EAEDED 
+    }

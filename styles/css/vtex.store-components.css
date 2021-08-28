@@ -1,9 +1,8 @@
-.notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
-  font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+.logoContainer {
+  color:#e6f1e6
+}
+.lazyLoad {
+  color:#37475A
 }
 
 .infoCardContainer--info-card-home {
@@ -11,16 +10,6 @@
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
-}
-
-.newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
-  margin: 0 auto;
-}
-
-.newsletter .container {
-  padding: 60px 10px;
 }
 
 .label {
@@ -64,12 +53,6 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
-
-@media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
-
   .label {
     font-size: 40px;
   }
@@ -86,7 +69,6 @@
     margin-bottom: 0px;
     max-height: 600px;
   }
-}
 
 .productImagesContainer--quickview .carouselContainer {
   justify-content: flex-start;

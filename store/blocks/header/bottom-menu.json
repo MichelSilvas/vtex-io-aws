@@ -1,22 +1,21 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
+      "menu-item#logo",
       "menu-item#about-us"
     ]
   },
-  "menu-item#shop": {
+  "menu-item#logo": {
     "props": {
-      "id": "menu-item-shop",
+      "id": "menu-item-logo",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "url": "./assets/logo.jpg",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+         "size": "70"
       }
     }
   },
