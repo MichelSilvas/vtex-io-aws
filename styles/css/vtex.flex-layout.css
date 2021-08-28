@@ -1,6 +1,10 @@
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
+  background-color: #37475A;
+}
+.flexRowContent--main-header-mobile {
+  background-color: #37475A;
 }
 
 @media screen and (min-width: 40em) {
@@ -103,4 +107,7 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+.stretchChildrenWidth{
+  padding-right: 50px;
 }
