@@ -6,11 +6,67 @@
   text-decoration: underline;
 }
 
+.infoCardContainer {
+  height: 373px;
+}
+
+.infoCardTextContainer {
+  padding-left: 2.5rem;
+}
+
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
+}
+
+.infoCardContainer--info-card-banner1 {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-image: url(assets/banner01.jpg);
+  background-clip: border-box;
+  background-position: right;
+}
+
+.infoCardContainer--info-card-banner2 {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-image: url(assets/banner02.png);
+  background-clip: border-box;
+  background-position: right;
+}
+
+.infoCardContainer--info-card-banner3 {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-image: url(assets/banner03.png);
+  background-clip: border-box;
+  background-position: right;
+}
+
+.infoCardContainer--info-card-banner4 {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-image: url(assets/banner04.png);
+  background-clip: border-box;
+  background-position: right;
+}
+
+.infoCardImage {
+  padding-left: 4rem;
+}
+
+.infoCardHeadline{
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.infoCardSubhead{
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .newsletter {
@@ -65,6 +121,8 @@
   margin: 1rem 0;
 }
 
+
+/*Responsividade para telas a partir de 640 pixels*/
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -74,13 +132,43 @@
     font-size: 40px;
   }
 
-  .infoCardContainer--info-card-home .infoCardTextContainer {
+  .infoCardContainer--info-card-home 
+  .infoCardTextContainer 
+  .infoCardContainer--info-card-banner1
+  .infoCardContainer--info-card-banner2
+  .infoCardContainer--info-card-banner3
+  .infoCardContainer--info-card-banner4
+  .infoCardContainer--info-card-banner5
+  {
     width: 30%;
+    font-size: .8rem;
   }
 
-  .infoCardContainer--info-card-home .infoCardImageContainer {
+  .infoCardContainer--info-card-home 
+  .infoCardImageContainer
+  .infoCardImage 
+
+  {
     width: 70%;
   }
+
+  .infoCardImage {
+    padding-left: 0;
+    width: 500px;
+  }
+  
+  .infoCardHeadline{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  
+  .infoCardSubhead{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
 
   .imageElement--storePrint {
     margin-bottom: 0px;
@@ -110,4 +198,43 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+@media (max-width: 700px) {
+  .infoCardTextContainer {
+    padding-left: 1.5rem;
+  }
+  .infoCardHeadline{
+    font-size: 1.5rem;
+  }
+
+  .infoCardSubhead{
+    font-size: 1rem;
+  }
+
+  .infoCardImage {
+    width: 15rem;
+    margin-left: 6rem;
+  }
+}
+
+/*Responsividade para telas a partir de 300 pixels*/
+
+@media (max-width: 450px) {
+
+  .infoCardTextContainer {
+    padding-left: 1.5rem;
+  }
+  .infoCardHeadline{
+    font-size: 1.1rem;
+  }
+
+  .infoCardSubhead{
+    font-size: .9rem;
+  }
+
+  .infoCardImage {
+    width: 10rem;
+    margin-left: 4rem;
+  }
+
 }
