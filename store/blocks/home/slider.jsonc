@@ -1,0 +1,143 @@
+{
+  "slider-layout#info-card": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "fullWidth" : true,
+      "autoplay" : {
+        "timeout" : 6000,
+        "stopOnHover" : true
+      }
+    },
+    "children": [
+      "flex-layout.row#banner1",
+      "flex-layout.row#banner2",
+      "flex-layout.row#banner3",
+      "flex-layout.row#banner4",
+      "flex-layout.row#banner5"
+    ]
+  },
+
+  "flex-layout.row#banner1" : {
+    "props" : {
+      "fullWidth" : true
+    },    
+    "children" : [
+      "info-card#banner1"
+    ]
+  },
+
+  "info-card#banner1": {
+    "props": {
+      "id": "info-card-banner1",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/banner01icon.png",
+      "headline": "Modernize sua infraestrutura de dados",
+      "subhead" : "Migre de datastores autogerenciados para serviços da AWS totalmente gerenciados para economizar tempo, custos e melhorar a produtividade  ",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/data/?sc_icampaign=Other_w34y21-custhero-slot2-DataHP&sc_ichannel=ha&sc_icontent=awssm-8796_pac_customer&sc_ioutcome=Global_Marketing_Campaigns&sc_iplace=hero&trk=ha_a134p000007C8kzAAC~ha_awssm-8796_pac_customer&trkCampaign=GLBL-FY21-Q3-GC-600-AWS-Data-Page",
+      "blockClass": "info-card-banner1",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#banner2" : {
+    "props" : {
+      "fullWidth" : true
+    },    
+    "children" : [
+      "info-card#banner2"
+    ]
+  },
+
+  "info-card#banner2": {
+    "props": {
+      "id": "info-card-banner2",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/banner02icon.png",
+      "headline": "Hospede aplicativos webestáticos",
+      "subhead" : "O AWS Amplify oferece um fluxo de trabalho simples baseado em Git para implantar aplicativos Web estáticos na AWS",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/amplify/?sc_icampaign=Adoption_Campaign_psc-2021-week39-slot5-sept-cust-hero-amplify&sc_ichannel=ha&sc_icontent=awssm-9108_pac_customer&sc_ioutcome=PaaS_Digital_Marketing&sc_iplace=hero&trk=ha_a134p000007CNY4AAO~ha_awssm-9108_pac_customer&trkCampaign=psc-2021-amplify",
+      "blockClass": "info-card-banner2",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#banner3" : {
+    "props" : {
+      "fullWidth" : true
+    },    
+    "children" : [
+      "info-card#banner3"
+    ]
+  },
+
+  "info-card#banner3": {
+    "props": {
+      "id": "info-card-banner3",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/banner03icon.png",
+      "headline": "Amazon Redshift",
+      "subhead" : "Obtenha uma performance de preço até três vezes melhor do que outros data warehouses na nuvem",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/pm/redshift-2/?sc_icampaign=Adoption_Campaign_w34y21_custhero_slot4_redshift_pricepref&sc_ichannel=ha&sc_icontent=awssm-8803_pac_customer&sc_ioutcome=Global_Marketing_Campaigns&sc_iplace=hero&trk=ha_a134p000007CNKQAA4~ha_awssm-8803_pac_customer&trkCampaign=gc_2021_redshift_priceperf",
+      "blockClass": "info-card-banner3",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#banner4" : {
+    "props" : {
+      "fullWidth" : true
+    },    
+    "children" : [
+      "info-card#banner4"
+    ]
+  },
+
+  "info-card#banner4": {
+    "props": {
+      "id": "info-card-banner4",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/banner04icon.png",
+      "headline": "Líder por 11 anos",
+      "subhead" : "Saiba porque o Gartner nomeou a AWS líder no Quadrante Mágico 2021 para infraestrutura e serviços de plataformas em nuvem (CIPS)",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/resources/analyst-reports/gartner-mq-cips-2021/?sc_icampaign=aquire_gartner-mq-cips-2021&sc_ichannel=ha&sc_icontent=awssm-8950_pac_customer&sc_iplace=hero&trk=ha_awssm-8950_pac_customer",
+      "blockClass": "info-card-banner4",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#banner5" : {
+    "props" : {
+      "fullWidth" : true
+    },    
+    "children" : [
+      "info-card#banner5"
+    ]
+  },
+
+  "info-card#banner5": {
+    "props": {
+      "id": "info-card-banner5",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/banner05icon.png",
+      "headline": "Amazon Location Service",
+      "subhead" : "Adicione mapas, geocodificação, roteamento, rastreamento e cercas geográficas de maneira fácil e segura às suas aplicações",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "https://aws.amazon.com/pt/location/?sc_icampaign=Product_Launch_psc-2021-w35-slot4-cust-hero-location&sc_ichannel=ha&sc_icontent=awssm-8807_pac_customer&sc_ioutcome=Product_Marketing&sc_iplace=hero&trk=ha_a134p000007C85XAAS~ha_awssm-8807_pac_customer&trkCampaign=psc-2021-location",
+      "blockClass": "info-card-banner3",
+      "textAlignment": "left"
+    }
+  }
+  
+}
