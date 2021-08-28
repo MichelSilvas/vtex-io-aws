@@ -21,6 +21,7 @@
   justify-content: start;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: #ccc;
 }
 
 .brandName {
@@ -39,4 +40,8 @@
 
 .image {
   border-radius: 0.25rem;
+}
+
+.productBrand {
+  color: #ccc;
 }
