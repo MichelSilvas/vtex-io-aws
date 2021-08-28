@@ -1,3 +1,8 @@
+.infoCardContainer--info-card {
+  background: none;
+  margin: 100px;
+  border: 3px solid #a166ff;
+}
 .logoContainer {
   color:#e6f1e6
 }

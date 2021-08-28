@@ -1,0 +1,26 @@
+{
+    "store.custom#about-us": {
+      "blocks": ["flex-layout.row#1"]
+    },
+      "flex-layout.row#1": {
+        "props": {
+        "blockClass": "image"
+        },
+     
+     "children": ["info-card"]
+      
+      },
+        "info-card": {
+      "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "Conclua o Cadastro",
+      "callToActionUrl": "/leads",
+      "blockClass": "info-card",
+      "textAlignment": "center"
+     
+    }
+  }
+}

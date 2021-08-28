@@ -1,3 +1,7 @@
+.flexRow--image {
+  background-image: url(assets/imagens/building.jpg);
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
