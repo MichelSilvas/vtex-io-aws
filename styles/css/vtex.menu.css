@@ -11,3 +11,6 @@
     .menuContainerNav {
      color:#EAEDED 
     }
+.styledLinkContent:hover {
+    color: #f8991d;
+}

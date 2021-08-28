@@ -1,8 +1,7 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#logo",
-      "menu-item#about-us"
+      "minicart.v2"
     ]
   },
   "menu-item#logo": {
@@ -19,6 +18,7 @@
       }
     }
   },
+  
   "vtex.menu@2.x:menu#institutional": {
     "children": [
       "menu-item#vtex-website"
