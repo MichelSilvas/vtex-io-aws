@@ -77,8 +77,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://programadoresbrasil.com.br/wp-content/uploads/2020/08/Amazon-Web-Services-1.png",
-      "width": "120"
+      "url": "assets/logo.png",
+      "width": "60"
     }
   },
   "header-layout.mobile": {
@@ -119,8 +119,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://programadoresbrasil.com.br/wp-content/uploads/2020/08/Amazon-Web-Services-1.png",
-      "width": "70"
+      "url": "assets/logo.png",
+      "width": "40"
     }
   }
 }

@@ -1,15 +1,15 @@
 {
-    "store.custom#leads" : {
-      "children" : [
-        "newsletter-form"
-      ]
-    },
-    "newsletter-form": {
-      "children": [
-        "newsletter-input-email",
-        "newsletter-input-name",
-        "newsletter-input-phone",
-        "newsletter-submit"
-      ]
-    }
+  "store.custom#leads" : {
+    "children" : [
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-input-phone",
+      "newsletter-submit"
+    ]
   }
+}
