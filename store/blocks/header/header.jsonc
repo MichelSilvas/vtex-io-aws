@@ -109,7 +109,8 @@
   "menu#drawer": {
     "children": [
       "menu-item#category-products",
-      "menu-item#leads"
+      "menu-item#leads",
+      "menu-item#about-us"
     ],
     "props": {
       "orientation": "vertical"
