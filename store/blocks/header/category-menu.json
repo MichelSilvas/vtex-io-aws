@@ -212,7 +212,7 @@
           "type": "internal",
           "href": "/leads",
           "noFollow": false,
-          "tagTitle": "Leads",
+          "tagTitle": "Torne-se um cliente",
           "text": "Torne-se um cliente"
         }
       }
@@ -227,7 +227,7 @@
           "type": "internal",
           "href": "/about-us",
           "noFollow": false,
-          "tagTitle": "Leads",
+          "tagTitle": "About Us",
           "text": "About Us"
         }
       }
