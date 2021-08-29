@@ -4,10 +4,7 @@
       "slider-layout#info-card",
       "__fold__.experimentalLazyAssets",
       "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#shelf"
     ]
   },
 
@@ -37,20 +34,6 @@
       "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }

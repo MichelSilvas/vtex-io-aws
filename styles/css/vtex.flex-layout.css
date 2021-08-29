@@ -116,7 +116,7 @@
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
-
+/*responvidade  no container de cadastro do leads*/
 @media(max-width: 720px) {
   .flexRow--containerLeads { 
     width: 80%;

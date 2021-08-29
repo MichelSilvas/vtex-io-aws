@@ -35,7 +35,7 @@
 }
 
 .infoCardTextContainer {
-  padding-left: 2.5rem;
+  margin-left: 5rem;
 }
 
 .infoCardContainer--info-card-home {
@@ -181,7 +181,7 @@
   .infoCardContainer--info-card-banner5
   {
     width: 30%;
-    font-size: .8rem;
+    font-size: 1.8rem;
   }
 
   .infoCardContainer--info-card-home 
@@ -242,6 +242,7 @@
 @media (max-width: 700px) {
   .infoCardTextContainer {
     padding-left: 1.5rem;
+    margin: 0 auto;
   }
   .infoCardHeadline{
     font-size: 1.5rem;
@@ -257,12 +258,13 @@
   }
 }
 
-/*Responsividade para telas a partir de 300 pixels*/
+/*Responsividade para telas a partir de 450 pixels*/
 
 @media (max-width: 450px) {
 
   .infoCardTextContainer {
     padding-left: 1.5rem;
+    margin: 0 auto;
   }
   .infoCardHeadline{
     font-size: 1.1rem;
