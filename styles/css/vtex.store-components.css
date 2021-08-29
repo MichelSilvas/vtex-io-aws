@@ -39,15 +39,14 @@
 }
 
 .infoCardContainer--info-card-home {
-  max-width: 1520px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
 }
 
 .infoCardContainer--info-card-banner1 {
-  max-width: 1520px;
-  margin: 0 auto;
+  max-width: 100%;
   background-image: url(assets/banner01.jpg);
   background-clip: border-box;
   background-position: right;

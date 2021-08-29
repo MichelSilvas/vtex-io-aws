@@ -14,7 +14,9 @@
   "rich-text#shelf-title": {
     "props": {
       "text": "## PRODUTOS",
-      "blockClass": "shelfTitle"
+      "textColor" : "c-action-secondary",
+      "blockClass": "title-products"
+      
     }
   },
   "flex-layout.row#shelf": {

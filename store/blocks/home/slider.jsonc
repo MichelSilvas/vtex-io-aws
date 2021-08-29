@@ -13,7 +13,7 @@
       "blockClass": "carousel",
       "fullWidth" : true,
       "autoplay" : {
-        "timeout" : 6000,
+        "timeout" : 66666000,
         "stopOnHover" : true
       }
     },
