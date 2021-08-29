@@ -5,7 +5,8 @@
     },
     "children": [
       "menu-item#category-products",
-      "menu-item#leads"
+      "menu-item#leads",
+      "menu-item#about-us"
     ]
   },
   "menu-item#category-products": {
@@ -133,7 +134,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/products---analises/analises/",
+          "href": "/products/analises/",
           "noFollow": false,
           "tagTitle": "Analises",
           "text": "Análises"
@@ -211,8 +212,23 @@
           "type": "internal",
           "href": "/leads",
           "noFollow": false,
-          "tagTitle": "Leads",
+          "tagTitle": "Torne-se um cliente",
           "text": "Torne-se um cliente"
+        }
+      }
+    },
+    "menu-item#about-us": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/about-us",
+          "noFollow": false,
+          "tagTitle": "About Us",
+          "text": "About Us"
         }
       }
     }
