@@ -1,3 +1,12 @@
+.wrapper--leadsTitle { 
+  margin: 0 0 -1rem 0;
+}
+.heading--leadsSubTitle { 
+  margin: 0 ;
+  padding-bottom: 1rem;
+  align-content: center;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;
@@ -104,25 +113,25 @@
   .container--text {
     background-color: #232f3e;
   }
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  background-color:#dddddd;
-}
-.paragraph--region2{
-  font-family: AmazonEmberRegular,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    color:#232f3e;
-    text-align:center;
-    font-weight: 200;
-    margin-bottom: 15px;
+  .wrapper {
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.5;
-    width: 1000px
-}
-.wrapper {
-  margin-left:auto;
-  margin-right:auto
-}
+    background-color:#dddddd;
+  }
+  .paragraph--region2{
+    font-family: AmazonEmberRegular,Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-size: 20px;
+      color:#232f3e;
+      text-align:center;
+      font-weight: 200;
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+      width: 1000px
+  }
+  .wrapper {
+    margin-left:auto;
+    margin-right:auto
+  }
 }

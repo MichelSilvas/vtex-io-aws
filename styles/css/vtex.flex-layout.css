@@ -7,6 +7,22 @@
   background-color: #37475A;
 }
 
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--containerLeads { 
+  background: rgba(46, 63, 82, 0.8);
+  display: flex;
+  margin: 1rem auto 0 auto;
+  width: min(59rem, 70%);
+  border-radius: 1rem;
+}
+
+.flexCol--containerLeadsCol {
+  padding: 0 1rem ;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -105,8 +121,18 @@
   height: 34% !important;
 }
 
-.flexRow--addToCartRow {
-  padding-bottom: 1rem;
+@media(max-width: 720px) {
+  .flexRow--containerLeads { 
+    width: 80%;
+  }
+}
+@media(max-width: 450px) {
+  .flexRow--containerLeads { 
+    width: 90%;
+  }
+}
+.stretchChildrenWidth{
+  padding-right: 50px;
 }
 .stretchChildrenWidth{
   padding-right: 50px;
