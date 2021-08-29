@@ -15,13 +15,13 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
       "social-networks"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    
     }
   },
 
@@ -30,19 +30,19 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/amazonwebservices"
         },
         {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "name": "Podcast",
+          "url": "https://aws.amazon.com/podcasts/aws-podcast/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "href": "https://twitter.com/awscloud"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "href": "https://www.youtube.com/user/AmazonWebServices/Cloud"
         }
       ]
     }
