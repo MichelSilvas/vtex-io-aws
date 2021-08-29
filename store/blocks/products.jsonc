@@ -1,28 +1,28 @@
 {
     "store.custom#products" : {
       "children" : [
-        "rich-text#shelf-title", "flex-layout.row#shelf"
+        "rich-text#shelf-title#products1", "flex-layout.row#shelf-products1"
       ]
     },
 
-  "rich-text#shelf-title": {
+  "rich-text#shelf-title#products1": {
     "props": {
       "text": "## Produtos Disponíveis",
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#shelf-products1": {
+    "children": ["list-context.product-list#products1"]
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#products1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#products1-products"],
     "props": {
       "category": "1",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#products1-products": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,

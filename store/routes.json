@@ -19,5 +19,9 @@
   },
   "store.custom#analises": {
     "path": "/products/analises"
+  },
+  "store.custom#integracao" : {
+    "path": "/products/aplicacoes"
   }
 }
+ 
