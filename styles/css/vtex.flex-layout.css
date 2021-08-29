@@ -1,3 +1,22 @@
+.infoCardSubhead--info-card1 {
+text-align: left;
+}
+.flexRow--image {
+  background: url(assets/imagens/building.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.infoCardContainer--info-card2 {
+  border:#a166ff;
+}
+.flexRow--infocard {
+  background: #232f3e
+
+}
+.stretchChildrenWidth--image {
+  background: none;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
@@ -121,6 +140,9 @@
   .flexRow--containerLeads { 
     width: 80%;
   }
+}
+.stretchChildrenWidth{
+  padding-right: 50px;
 }
 @media(max-width: 450px) {
   .flexRow--containerLeads { 

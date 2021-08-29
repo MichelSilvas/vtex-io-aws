@@ -165,7 +165,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/amazon-athena/p",
+          "href": "/athena/p",
           "noFollow": false,
           "tagTitle": "AmazonAthena",
           "text": "Amazon Athena"
