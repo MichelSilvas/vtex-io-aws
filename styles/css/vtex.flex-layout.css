@@ -62,11 +62,6 @@
   font-size: 14px;
 }
 
-.flexRowContent--credits :global(.vtex-menu-2-x-styledLink) {
-  color: #ccc;
-  font-size: 14px;
-}
-
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #ccc;
   font-size: 15px;
