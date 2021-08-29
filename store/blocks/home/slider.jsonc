@@ -1,6 +1,6 @@
-//arquivo responsavel criar o slider da home
-{
+  //arquivo responsavel criar o slider da home 
   //slider layout é o pai dos flex-layout e faz o papel transacionar os info-cards 
+  {
   "slider-layout#info-card": {
     "props": {
       "itemsPerPage": {

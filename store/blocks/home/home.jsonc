@@ -14,7 +14,9 @@
   "rich-text#shelf-title": {
     "props": {
       "text": "## PRODUTOS",
-      "blockClass": "shelfTitle"
+      "textColor" : "c-action-secondary",
+      "blockClass": "title-products"
+      
     }
   },
   "flex-layout.row#shelf": {
@@ -37,14 +39,6 @@
       "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf"
-    }
-  },
-
-  "rich-text#regions": {
-    "props": {
-      "text": "Global Network of AWS Regions",
-      "blockClass": "region",
-      "textAlignment": "center"
     }
   },
   "rich-text#regions": {

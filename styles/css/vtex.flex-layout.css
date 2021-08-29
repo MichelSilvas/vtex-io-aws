@@ -11,6 +11,7 @@
   padding-bottom: 1rem;
 }
 
+
 .flexRow--containerLeads { 
   background: rgba(46, 63, 82, 0.8);
   display: flex;
@@ -115,7 +116,7 @@
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
-
+/*responvidade  no container de cadastro do leads*/
 @media(max-width: 720px) {
   .flexRow--containerLeads { 
     width: 80%;
@@ -125,10 +126,4 @@
   .flexRow--containerLeads { 
     width: 90%;
   }
-}
-.stretchChildrenWidth{
-  padding-right: 50px;
-}
-.stretchChildrenWidth{
-  padding-right: 50px;
 }
