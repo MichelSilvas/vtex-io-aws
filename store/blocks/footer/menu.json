@@ -20,8 +20,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "What is AWS?",
+        "text": "What is AWS?"
       }
     }
   },
@@ -35,8 +35,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "What Is Cloud Computing?",
+        "text": "What Is Cloud Computing?"
       }
     }
   },
@@ -50,8 +50,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "AWS Cloud Security",
+        "text": "AWS Cloud Security"
       }
     }
   },
@@ -65,8 +65,9 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "What Is DevOps?",
+        "text": "What Is DevOps?"
+
       }
     }
   },
@@ -92,8 +93,8 @@
         "type": "internal",
         "href": "/decoration/smartphones",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Resources for AWS",
+        "text": "Resources for AWS"
       }
     }
   },
@@ -108,8 +109,8 @@
         "type": "internal",
         "href": "/decoration/videogames",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Training and Certification",
+        "text": "Training and Certification"
       }
     }
   },
@@ -124,8 +125,8 @@
         "type": "internal",
         "href": "/decoration/tvs",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "AWS Solutions Portfolio",
+        "text": "AWS Solutions Portfolio"
       }
     }
   },
@@ -151,8 +152,8 @@
         "type": "internal",
         "href": "/bags/d",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Help",
+        "text": "Help"
       }
     }
   },
@@ -167,8 +168,8 @@
         "type": "internal",
         "href": "/bags/backpacks",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
       }
     }
   },
@@ -183,8 +184,8 @@
         "type": "internal",
         "href": "/bags/necessaire",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "AWS Careers",
+        "text": "AWS Careers"
       }
     }
   },

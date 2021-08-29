@@ -5,9 +5,9 @@
       "__fold__.experimentalLazyAssets",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "rich-text#regions",
+      "rich-text#regions2", 
+      "image#regions"     
     ]
   },
 
@@ -40,17 +40,23 @@
     }
   },
 
-  "rich-text#question": {
+  "rich-text#regions": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "text": "Global Network of AWS Regions",
+      "blockClass": "region",
+      "textAlignment": "center"
     }
   },
-
-  "rich-text#link": {
+  "rich-text#regions2": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "text": "The AWS Cloud spans 81 Availability Zones within 25 geographic regions around the world, with announced plans for 21 more Availability Zones and 7 more AWS Regions in Australia, India, Indonesia, Israel, Spain, Switzerland, and United Arab Emirates (UAE).",
+      "blockClass": "region2",
+      "textAlignment": "center"
+      }
+      },
+      "image#regions": {
+    "props": {
+     "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg"
     }
   }
 }
