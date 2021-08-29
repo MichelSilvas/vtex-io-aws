@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -19,7 +19,7 @@
       "fullWidth": true
     }
   },
-  "flex-layout.row#2-desktop": {
+  "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
@@ -28,8 +28,9 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites",
       "vtex.menu@2.x:menu#institutional"
     ]
   },
@@ -54,13 +55,9 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-      "minicart.v2",
-      "locale-switcher",
-      "login",
-      "search-bar"
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -78,11 +75,9 @@
   "logo#desktop": {
     "props": {
       "title": "Logo",
-      "href": "./assets/logo.jpg",
-      "width": "70",
-      "float": "left",
-      "position": "relative",
-      "z-index": 2
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "60"
     }
   },
   "header-layout.mobile": {
@@ -95,9 +90,7 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#spacer"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -112,9 +105,8 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-products",
+      "menu-item#leads"
     ],
     "props": {
       "orientation": "vertical"
@@ -125,8 +117,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://aws.amazon.com/?nc2=h_lg",
-      "width": "70"
+      "url": "assets/logo.png",
+      "width": "40"
     }
   }
 }

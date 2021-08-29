@@ -1,11 +1,11 @@
 .listPrice {
-  color: #727273;
+  color: #ccc;
   margin-bottom: .25rem;
   font-size: 1rem;
 }
 
 .sellingPrice {
-  color: #3f3f40;
+  color: #ccc;
   font-size: 1.25rem;
 }
 
@@ -27,7 +27,7 @@
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #2E2E2E;
+  color: #ccc;
 }
 
 .savings--summary {

@@ -1,5 +1,20 @@
+.infoCardSubhead--info-card1 {
+text-align: left;
+}
 .flexRow--image {
-  background-image: url(assets/imagens/building.jpg);
+  background: url(assets/imagens/building.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.infoCardContainer--info-card2 {
+  border:#a166ff;
+}
+.flexRow--infocard {
+  background: #232f3e
+
+}
+.stretchChildrenWidth--image {
+  background: none;
 }
 
 .flexRowContent--menu-link,
@@ -25,31 +40,43 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #37475A;
-  color: #fff;
+  background-color: #232f3e;
+  color: #ccc;
 }
 
 .flexRowContent--main-header {
-  background-color: #37475A;
+  background-color: #232f3e;
+  color: #ccc;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #232f3e;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #37475A;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.flexRowContent--menu-row :global(.vtex-menu-2-x-styledLink) {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.flexRowContent--credits :global(.vtex-menu-2-x-styledLink) {
+  color: #ccc;
   font-size: 14px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #37475A;
-  font-size: 14px;
+  color: #ccc;
+  font-size: 15px;
+  font-weight: 700;
 }
 .flexRow--deals {
-  background-color: #37475a;
+  background-color: #232f3e;
   padding: 14px 0px;
 }
 

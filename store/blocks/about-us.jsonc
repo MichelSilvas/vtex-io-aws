@@ -1,6 +1,16 @@
 {
     "store.custom#about-us": {
-      "blocks": ["flex-layout.row#1"]
+      "blocks": [
+        "flex-layout.row#1", 
+        "rich-text#1",
+         "flex-layout.row#2",
+          "flex-layout.row#3",
+           "flex-layout.row#4", 
+           "flex-layout.row#5",
+           "rich-text#2",
+           "rich-text#3",
+           "image#regions"
+      ]
     },
       "flex-layout.row#1": {
         "props": {
@@ -14,13 +24,100 @@
       "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "Conclua o Cadastro",
-      "callToActionUrl": "/leads",
-      "blockClass": "info-card",
-      "textAlignment": "center"
-     
-    }
+      "imageUrl": "assets/imagens/video1.jpg",
+      "headline": "Computação em nuvem com a AWS",
+      "subhead": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups de crescimento mais rápido, grandes empresas e os maiores órgãos governamentais, estão usando a AWS para reduzirem seus custos, ficarem mais ágeis e inovarem mais rapidamente",
+      "blockClass": "info-card1",
+      "callToActionMode": "button",
+      "callToActionText": "Continua Cadastro",
+      "callToActionUrl": "/leads"
+      }
+    
+      },
+      "rich-text#1":{
+        "props": {
+          "text": "A maior plataforma de nuvem",
+          "blockClass": "hello"}
+        },
+        "flex-layout.row#2": {
+          "children": ["image#2"],
+          "props":{
+            "blockClass":"corner-top"
+          }
+          },
+          "image#2":{
+          "props": {
+          "src": "assets/imagens/Corners-top.jpg"
+          }
+        },
+        "flex-layout.row#3": {
+         "children": ["info-card#2"],
+         "props": {
+          "blockClass": "info-card-2 "
+         }
+            
+            },
+ 
+             "info-card#2":{
+            "props": {
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "assets/imagens/placeholder1.jpg",
+            "title" : "A maior funcionalidade",
+            "headline" : "A maior funcionalidade",
+            "subhead": "A AWS oferece uma quantidade consideravelmente maior de serviços – e mais recursos com esses serviços – do que qualquer outro provedor de nuvem: de tecnologias de infraestrutura, como computação, armazenamento e bancos de dados, a tecnologias emergentes como machine learning e inteligência artificial, data lakes, análises e Internet das Coisas. Com isso, é mais rápido, mas fácil e mais econômico mover seus aplicativos para a nuvem e construir praticamente qualquer coisa que você possa imaginar. A AWS também tem a funcionalidade mais aprofundada nesses serviços. Por exemplo, a AWS oferece a mais ampla gama de bancos de dados especialmente criados para os diversos tipos de aplicativos. Assim, você pode escolher a ferramenta certa para o trabalho, ao melhor custo e com a melhor performance.",
+            "blockClass": "infoCard2",
+            "textAlignment": "justify"
+            }
+},
+"flex-layout.row#4": {
+  "children": ["image#3"],
+  "props":{
+    "blockClass":"cornerbottom"
   }
+  },
+  "image#3":{
+  "props": {
+  "src": "assets/imagens/corners-bottom.png",
+  "blockClass": "image3"
+  }
+},
+"flex-layout.row#5": {
+ "children": ["info-card#3"],
+ "props": {
+  "blockClass": "infocard-3 "
+ }
+ },
+"info-card#3":{
+  "props": {
+  "isFullModeStyle": false,
+  "textPosition": "left",
+  "imageUrl": "assets/imagens/placeholder2.png",
+  "title" : "A maior funcionalidade",
+  "headline" : "A maior comunidade de clientes e parceiros",
+  "subhead": "A AWS tem a maior e mais dinâmica comunidade, com milhões de clientes ativos e dezenas de milhares de parceiros no mundo todo. Clientes em praticamente todos os setores e de todos os tamanhos, incluindo startups, corporações e organizações do setor público, estão executando todo tipo imaginável de caso de uso na AWS. A Rede de parceiros da AWS (APN) inclui milhares de integradores de sistemas especializados nos serviços da AWS e dezenas de milhares de provedores independentes de software (ISVs) que adaptam suas tecnologias para funcionar com a AWS. ",
+  "blockClass": "infoCard3",
+  "textAlignment": "left"
+  }
+},
+"rich-text#2": {
+  "props": {
+    "text": "Rede Global de Regiões da AWS",
+    "textAlignment": "center",
+    "blockClass": "map1"
+  }
+  },
+  "rich-text#3": {
+    "props": {
+    "text": "A AWS tem a mais extensa infraestrutura de nuvem global. Nenhum outro provedor de nuvem oferece tantas regiões com múltiplas Zonas de Disponibilidade conectadas por redes altamente redundantes com baixa latência e alta taxa de transferência. A AWS tem 81 Zonas de Disponibilidade em 25 regiões geográficas em todo o mundo e anunciou planos para mais 21 Zonas de Disponibilidade e mais 7 regiões da AWS na Austrália, Emirados Árabes Unidos (EAU), Espanha, Índia, Indonésia, Israel, e Suíça. O modelo de região e Zona de Disponibilidade da AWS foi reconhecido pela Gartner como a abordagem recomendada para a execução de aplicações empresariais que exigem alta disponibilidade.",
+    "blockClass": "map2"
+  }
+},
+    "image#regions": {
+  "props": {
+  "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg",
+  "blockClass": "regions",
+  "textAlignment": "center"
+}
+}
 }
