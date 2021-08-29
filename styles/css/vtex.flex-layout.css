@@ -26,6 +26,23 @@ text-align: left;
   background-color: #37475A;
 }
 
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+
+.flexRow--containerLeads { 
+  background: rgba(46, 63, 82, 0.8);
+  display: flex;
+  margin: 1rem auto 0 auto;
+  width: min(59rem, 70%);
+  border-radius: 1rem;
+}
+
+.flexCol--containerLeadsCol {
+  padding: 0 1rem ;
+}
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -61,11 +78,6 @@ text-align: left;
 }
 
 .flexRowContent--menu-row :global(.vtex-menu-2-x-styledLink) {
-  color: #ccc;
-  font-size: 14px;
-}
-
-.flexRowContent--credits :global(.vtex-menu-2-x-styledLink) {
   color: #ccc;
   font-size: 14px;
 }
@@ -123,10 +135,17 @@ text-align: left;
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
-
-.flexRow--addToCartRow {
-  padding-bottom: 1rem;
+/*responvidade  no container de cadastro do leads*/
+@media(max-width: 720px) {
+  .flexRow--containerLeads { 
+    width: 80%;
+  }
 }
 .stretchChildrenWidth{
   padding-right: 50px;
+}
+@media(max-width: 450px) {
+  .flexRow--containerLeads { 
+    width: 90%;
+  }
 }

@@ -1,0 +1,37 @@
+{
+    "store.custom#destaque" : {
+      "children" : [
+        "rich-text#shelf-title#destaque", "flex-layout.row#shelf#destaque"
+      ]
+    },
+
+  "rich-text#shelf-title#destaque": {
+    "props": {
+      "text": "## Serviços em Destaque",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf#destaque": {
+    "children": ["list-context.product-list#destaque"]
+  },
+  "list-context.product-list#destaque": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#destaque-products"],
+    "props": {
+      "category": "1/2",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#destaque-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

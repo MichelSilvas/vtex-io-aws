@@ -2,20 +2,21 @@
   "store.home": {
     "blocks": [
       "slider-layout#info-card",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home"  
+      "rich-text#regions",
+      "rich-text#regions2", 
+      "image#regions"     
     ]
   },
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "text": "## PRODUTOS",
+      "textColor" : "c-action-secondary",
+      "blockClass": "title-products"
+      
     }
   },
   "flex-layout.row#shelf": {
@@ -40,20 +41,23 @@
       "blockClass": "shelf"
     }
   },
-  
-
-  "info-card#home": {
+  "rich-text#regions": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "text": "Global Network of AWS Regions",
+      "blockClass": "region",
       "textAlignment": "center"
-    
+    }
+  },
+  "rich-text#regions2": {
+    "props": {
+      "text": "The AWS Cloud spans 81 Availability Zones within 25 geographic regions around the world, with announced plans for 21 more Availability Zones and 7 more AWS Regions in Australia, India, Indonesia, Israel, Spain, Switzerland, and United Arab Emirates (UAE).",
+      "blockClass": "region2",
+      "textAlignment": "center"
+      }
+      },
+      "image#regions": {
+    "props": {
+     "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg"
     }
   }
 }

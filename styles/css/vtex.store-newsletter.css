@@ -1,0 +1,12 @@
+.emailInputContainer, .nameInputContainer, .phoneInputContainer {
+  padding-bottom: 1rem;
+}
+
+.formSubmitContainer {
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}

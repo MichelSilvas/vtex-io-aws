@@ -5,7 +5,8 @@
     },
     "children": [
       "menu-item#category-products",
-      "menu-item#leads"
+      "menu-item#leads",
+      "menu-item#about-us"
     ]
   },
   "menu-item#category-products": {
@@ -133,7 +134,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/products---analises/analises/",
+          "href": "/products/analises/",
           "noFollow": false,
           "tagTitle": "Analises",
           "text": "Análises"
@@ -194,10 +195,56 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/products---aplicacoes/aplicacoes/",
+          "href": "/products/aplicacoes/",
           "noFollow": false,
           "tagTitle": "Aplicacoes",
           "text": "Integração de Aplicações"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#category-products-aplicacoes"]
+    },
+    "vtex.menu@2.x:submenu#category-products-aplicacoes": {
+      "props": {
+        "width": "auto"
+      },
+      "children": ["vtex.menu@2.x:menu#category-products-aplicacoes"]
+    },
+    "vtex.menu@2.x:menu#category-products-aplicacoes": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#category-products-amazon-stepfunctions",
+        "menu-item#category-products-amazon-appflow"
+      ]
+    },
+    "menu-item#category-products-amazon-stepfunctions": {
+      "props": {
+        "id": "menu-item-category-products-amazon-stepfunctions",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/stepfunctions/p",
+          "noFollow": false,
+          "tagTitle": "AmazonStepFunctions",
+          "text": "Amazon Step Functions"
+        }
+      }
+    },
+    "menu-item#category-products-amazon-appflow": {
+      "props": {
+        "id": "menu-item-category-products-amazon-appflow",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/appflow/p",
+          "noFollow": false,
+          "tagTitle": "AmazonAppFlow",
+          "text": "Amazon AppFlow"
         }
       }
     },
@@ -211,8 +258,23 @@
           "type": "internal",
           "href": "/leads",
           "noFollow": false,
-          "tagTitle": "Leads",
+          "tagTitle": "Torne-se um cliente",
           "text": "Torne-se um cliente"
+        }
+      }
+    },
+    "menu-item#about-us": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/about-us",
+          "noFollow": false,
+          "tagTitle": "About Us",
+          "text": "About Us"
         }
       }
     }

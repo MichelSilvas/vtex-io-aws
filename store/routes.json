@@ -13,5 +13,15 @@
   },
   "store.custom#products": {
     "path": "/products"
+  },
+  "store.custom#destaque": {
+    "path": "/products/servicos"
+  },
+  "store.custom#analises": {
+    "path": "/products/analises"
+  },
+  "store.custom#integracao" : {
+    "path": "/products/aplicacoes"
   }
 }
+ 

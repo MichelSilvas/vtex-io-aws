@@ -1,4 +1,6 @@
-{
+  //arquivo responsavel criar o slider da home 
+  //slider layout é o pai dos flex-layout e faz o papel transacionar os info-cards 
+  {
   "slider-layout#info-card": {
     "props": {
       "itemsPerPage": {
@@ -24,6 +26,9 @@
     ]
   },
 
+  //cada flex-layout recebe um info-card
+  //o nome de cada flex é importante para a estilizaçao
+  //que traz o background com a imagem
   "flex-layout.row#banner1" : {
     "props" : {
       "fullWidth" : true
@@ -33,6 +38,8 @@
     ]
   },
 
+  //cada info-card traz o uma imagem menor que é carregada
+  //ao lado do texto explicativo
   "info-card#banner1": {
     "props": {
       "id": "info-card-banner1",
@@ -139,5 +146,4 @@
       "textAlignment": "left"
     }
   }
-  
 }
