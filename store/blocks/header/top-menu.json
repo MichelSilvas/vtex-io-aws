@@ -1,9 +1,25 @@
 {
+  "flex-layout.col#search": {
+    "children": [
+      "search-bar"
+    ]
+  },
+  
+  "flex-layout.col#login": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "login#button-login"
+    ]
+  },
+
   "vtex.menu@2.x:menu#websites": {
     "children": [
       "minicart.v2"
     ]
   },
+
   "menu-item#logo": {
     "props": {
       "id": "menu-item-logo",
@@ -18,25 +34,10 @@
       }
     }
   },
-  
-  "vtex.menu@2.x:menu#institutional": {
-    "children": [
-      "menu-item#vtex-website"
-    ]
-  },
-  "menu-item#vtex-website": {
+
+  "login#button-login": {
     "props": {
-      "id": "menu-item-vtex-website",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "http://vtex.com",
-        "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
-      }
+      "blockClass": "login-header"
     }
   }
 }
