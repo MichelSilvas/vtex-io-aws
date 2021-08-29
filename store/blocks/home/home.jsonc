@@ -4,14 +4,10 @@
       "slider-layout#info-card",
       "__fold__.experimentalLazyAssets",
       "rich-text#shelf-title",
-<<<<<<< HEAD
-      "flex-layout.row#shelf"
-=======
       "flex-layout.row#shelf",
       "rich-text#regions",
       "rich-text#regions2", 
       "image#regions"     
->>>>>>> 7bbf26fd26c08d0a9d6251d746c2509450138084
     ]
   },
 
@@ -42,16 +38,6 @@
       "fullWidth": true,
       "blockClass": "shelf"
     }
-<<<<<<< HEAD
-=======
-  },
-
-  "rich-text#regions": {
-    "props": {
-      "text": "Global Network of AWS Regions",
-      "blockClass": "region",
-      "textAlignment": "center"
-    }
   },
   "rich-text#regions": {
     "props": {
@@ -71,6 +57,5 @@
     "props": {
      "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg"
     }
->>>>>>> 7bbf26fd26c08d0a9d6251d746c2509450138084
   }
 }
