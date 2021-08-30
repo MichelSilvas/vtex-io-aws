@@ -57,7 +57,7 @@
         "background": {
           "base": "#232f3e",
           "base--inverted": "#03044e",
-          "action-primary": "#0F3E99",
+          "action-primary": "#f67c1b",
           "action-secondary": "#eef3f7",
           "emphasis": "#f71963",
           "disabled": "#f2f4f5",
@@ -74,7 +74,7 @@
           "muted-5": "#f2f4f5"
         },
         "hover-background": {
-          "action-primary": "#072c75",
+          "action-primary": "#e15500",
           "action-secondary": "#dbe9fd",
           "emphasis": "#dd1659",
           "success": "#8bc34a",

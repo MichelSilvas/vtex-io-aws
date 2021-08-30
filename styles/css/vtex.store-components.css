@@ -6,6 +6,8 @@ margin-right: 0}
 
 .imageElement--regions {
   background: #3f3f40;
+  width: auto;
+  margin-left: 7%;
 }
 
 .infoCardContainer--infoCard3 {
