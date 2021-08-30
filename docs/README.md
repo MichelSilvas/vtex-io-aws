@@ -1,24 +1,41 @@
-# Store theme
+# Desafio Final FASE#3 - Hiring Coders 2021 - AWS - Time 14
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+Loja com temática AWS, criada com VTEX IO, que se comunica com AWS API Gateway.
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+## ❗ Links importantes ❗
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-Our boilerplate theme to create stores in the VTEX IO platform.
 
 ## Preview
 
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+É possível conferir a loja [aqui.](https://hiringcoders202114.myvtex.com/)
 
-## Tutorial
+![aws-store](img)
 
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
+## Pre-requisitos
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/pt-br/)
+- [Yarn](https://classic.yarnpkg.com/)
+- [Vtex Toolbelt](https://vtex.io/docs/getting-started/desenvolva-componentes-usando-vtex-io-e-react/2/)
 
-## Dependencies
+## Como vizualizar
+Apos clonar o repositório, em um terminal entre em sua conta Vtex
+```bash
+vtex login {conta}
+```
+Entre (ou crie) em um workspace de desevolvimento
+```bash
+vtex use examplename
+```
+Inicie uma sessão de desenvolvimento
+```bash
+vtex link
+```
+Para visualizar no navegador use
+```bash
+vtex browse
+```
 
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+## Dependencias
 
 Store framework is the baseline to create any store using _VTEX IO Web Framework_.
 
@@ -51,28 +68,7 @@ Store GraphQL is a middleware to access all VTEX APIs.
 - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
 - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
 
-## Contributing
+## Equipe ✨
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
+- (Ricardo de Andrade Maia)[https://github.com/RicardoAndradeM]
 
