@@ -7,7 +7,7 @@
       "flex-layout.row#shelf",
       "rich-text#regions",
       "rich-text#regions2", 
-      "image#regions"     
+      "image#regions-home"     
     ]
   },
 
@@ -55,9 +55,10 @@
       "textAlignment": "center"
       }
       },
-      "image#regions": {
+      "image#regions-home": {
     "props": {
-     "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg"
+     "src": "assets/imagens/mapaws.jpg",
+     "blockClass":"regions"
     }
   }
 }
