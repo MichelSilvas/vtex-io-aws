@@ -141,9 +141,6 @@ text-align: left;
     width: 80%;
   }
 }
-.stretchChildrenWidth{
-  padding-right: 50px;
-}
 @media(max-width: 450px) {
   .flexRow--containerLeads { 
     width: 90%;
