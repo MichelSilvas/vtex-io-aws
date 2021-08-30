@@ -63,16 +63,5 @@
       "textColor": "c-muted-5",
       "blockClass": "leadsSubTitle"
     }
-  },
-  "newsletter-form": {
-    "props": {
-      "blockClass": "leadsForm"
-    },
-    "children": [
-      "newsletter-input-email",
-      "newsletter-input-name",
-      "newsletter-input-phone",
-      "newsletter-submit"
-    ]
   }
 }
