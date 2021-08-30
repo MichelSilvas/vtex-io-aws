@@ -18,10 +18,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/about-us",
         "noFollow": false,
-        "tagTitle": "What is AWS?",
-        "text": "What is AWS?"
+        "tagTitle": "O que é a AWS?",
+        "text": "O que é a AWS?"
       }
     }
   },
@@ -33,10 +33,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://aws.amazon.com/pt/what-is-cloud-computing/?nc1=f_cc",
         "noFollow": false,
-        "tagTitle": "What Is Cloud Computing?",
-        "text": "What Is Cloud Computing?"
+        "tagTitle": "O que é a computação em nuvem?",
+        "text": "O que é a computação em nuvem?"
       }
     }
   },
@@ -48,10 +48,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://aws.amazon.com/pt/security/?nc1=f_cc",
         "noFollow": false,
-        "tagTitle": "AWS Cloud Security",
-        "text": "AWS Cloud Security"
+        "tagTitle": "Segurança na Nuvem AWS",
+        "text": "Segurança na Nuvem AWS"
       }
     }
   },
@@ -63,10 +63,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://aws.amazon.com/pt/devops/what-is-devops/?nc1=f_cc",
         "noFollow": false,
-        "tagTitle": "What Is DevOps?",
-        "text": "What Is DevOps?"
+        "tagTitle": "O que é o DevOps?",
+        "text": "O que é o DevOps?"
 
       }
     }
@@ -91,10 +91,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "https://aws.amazon.com/pt/",
         "noFollow": true,
-        "tagTitle": "Resources for AWS",
-        "text": "Resources for AWS"
+        "tagTitle": "Recursos da AWS",
+        "text": "Recursos da AWS"
       }
     }
   },
@@ -107,10 +107,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "https://aws.amazon.com/pt/training/?nc1=f_cc",
         "noFollow": true,
-        "tagTitle": "Training and Certification",
-        "text": "Training and Certification"
+        "tagTitle": "Treinamento e certificação",
+        "text": "Treinamento e certificação"
       }
     }
   },
@@ -123,10 +123,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "https://aws.amazon.com/pt/solutions/?nc1=f_cc",
         "noFollow": true,
-        "tagTitle": "AWS Solutions Portfolio",
-        "text": "AWS Solutions Portfolio"
+        "tagTitle": "Portfólio de soluções da AWS",
+        "text": "Portfólio de soluções da AWS"
       }
     }
   },
@@ -150,10 +150,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "https://aws.amazon.com/pt/contact-us/?nc1=f_m",
         "noFollow": true,
-        "tagTitle": "Help",
-        "text": "Help"
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
       }
     }
   },
@@ -166,10 +166,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "https://aws.amazon.com/pt/contact-us/?nc1=f_m",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "Entre em contato conosco",
+        "text": "Entre em contato conosco"
       }
     }
   },
@@ -182,10 +182,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "https://www.amazon.jobs/aws",
         "noFollow": true,
-        "tagTitle": "AWS Careers",
-        "text": "AWS Careers"
+        "tagTitle": "Carreiras na AWS",
+        "text": "Carreiras na AWS"
       }
     }
   },
@@ -222,7 +222,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "https://aws.amazon.com/pt/developer/?nc1=f_dr",
         "noFollow": true,
         "tagTitle": "Centro do Desenvolvedor",
         "text": "Centro do Desenvolvedor"
@@ -318,10 +318,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "https://aws.amazon.com/pt/developer/language/net/?nc1=f_dr",
         "noFollow": false,
-        "tagTitle": ".Net on AWS",
-        "text": ".Net on AWS"
+        "tagTitle": ".Net na AWS",
+        "text": ".Net na AWS"
       }
     }
   },
@@ -334,10 +334,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "https://aws.amazon.com/pt/developer/language/python/?nc1=f_dr",
         "noFollow": false,
-        "tagTitle": "Python on AWS",
-        "text": "Python on AWS"
+        "tagTitle": "Python na AWS",
+        "text": "Python na AWS"
       }
     }
   },
@@ -350,10 +350,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "https://aws.amazon.com/pt/developer/language/java/?nc1=f_dr",
         "noFollow": false,
-        "tagTitle": "Java on AWS",
-        "text": "Java on AWS"
+        "tagTitle": "Java na AWS",
+        "text": "Java na AWS"
       }
     }
   }
