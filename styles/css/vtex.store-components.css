@@ -101,30 +101,31 @@ margin: 100px;
   background-image: url(assets/banner01.jpg);
   background-clip: border-box;
   background-position: right;
+  border-radius: 1rem;
 }
 
 .infoCardContainer--info-card-banner2 {
-  max-width: 1520px;
-  margin: 0 auto;
+  max-width: 100%;
   background-image: url(assets/banner02.png);
   background-clip: border-box;
   background-position: right;
+  border-radius: 1rem;
 }
 
 .infoCardContainer--info-card-banner3 {
-  max-width: 1520px;
-  margin: 0 auto;
+  max-width: 100%;
   background-image: url(assets/banner03.png);
   background-clip: border-box;
   background-position: right;
+  border-radius: 1rem;
 }
 
 .infoCardContainer--info-card-banner4 {
-  max-width: 1520px;
-  margin: 0 auto;
+  max-width: 100%;
   background-image: url(assets/banner04.png);
   background-clip: border-box;
   background-position: right;
+  border-radius: 1rem;
 }
 
 .infoCardImage {
