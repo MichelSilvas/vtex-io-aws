@@ -6,8 +6,7 @@ margin-right: 0}
 
 .imageElement--regions {
   background: #3f3f40;
-  width: auto;
-  margin-left: 7%;
+  width:100%;
 }
 
 .infoCardContainer--infoCard3 {
@@ -45,7 +44,7 @@ margin: 100px;
   width: 152;
 }
 .infoCardCallActionTextContainer--info-card1 {
-  color: white
+  color: white;
 }
 
 .logoContainer {
