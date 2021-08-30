@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './styles.css'
 import { Container, Button, Form } from 'react-bootstrap'
 
 function LeadForm() {
@@ -7,19 +8,23 @@ function LeadForm() {
       <div>
         <br />
         <Form>
-          <Form.Group className="name">
-            <Form.Label>Nome: </Form.Label>
+          <Form.Group className={styles.name}>
+            <Form.Label className={styles.nameUser}>Nome: </Form.Label>
             <Form.Control placeholder="Nome" />
           </Form.Group>
-          <Form.Group>
-            <Form.Label>Email: </Form.Label>
-            <Form.Control placeholder="Email" type="email" />
+          <br />
+          <Form.Group className={styles.email}>
+            <Form.Label className={styles.emailUser}>E-mail: </Form.Label>
+            <Form.Control placeholder="E-mail" type="email" />
           </Form.Group>
-          <Form.Group>
-            <Form.Label>Celular: </Form.Label>
-            <Form.Control placeholder="Celular" />
+          <br />
+          <Form.Group className={styles.telefone}>
+            <Form.Label className={styles.telefoneUser}>Telefone: </Form.Label>
+            <Form.Control placeholder="Telefone" />
           </Form.Group>
-          <Button>Receba seu cupom!</Button>
+          <br />
+          <Button className={styles.botao}>Receba seu cupom!</Button>
+          <br />
         </Form>
       </div>
     </Container>

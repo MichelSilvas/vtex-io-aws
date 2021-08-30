@@ -1,0 +1,42 @@
+.nameUser {
+    color: #ffff;
+  }
+
+.botao {
+    background-color:#f67c1b;
+    margin-left: 42.5%;
+    margin-right: 40.8%;
+    border-radius: 5px;
+    color: #fff;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.botao:hover {
+  background-color:#e15500;
+  cursor: pointer;
+}
+
+.name {
+  margin-left: 34%;  
+}
+
+.email {
+  margin-left: 33.7%;
+}
+
+.telefone {
+  margin-left: 32%; 
+}
+
+.nameUser {
+  color: #ccc;  
+}
+
+.emailUser {
+  color: #ccc;
+}
+
+.telefoneUser {
+  color: #ccc; 
+}
