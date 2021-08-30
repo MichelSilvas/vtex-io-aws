@@ -9,7 +9,7 @@
            "flex-layout.row#5",
            "rich-text#2",
            "rich-text#3",
-           "image#regions"
+           "image#regions-about-us"
       ]
     },
       "flex-layout.row#1": {
@@ -113,9 +113,9 @@
     "blockClass": "map2"
   }
 },
-    "image#regions": {
+    "image#regions-about-us": {
   "props": {
-  "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg",
+  "src": "assets/imagens/mapaws.jpg",
   "blockClass": "regions",
   "textAlignment": "center"
 }
