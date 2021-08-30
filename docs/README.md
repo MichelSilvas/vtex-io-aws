@@ -7,9 +7,9 @@ Loja com temática AWS, criada com VTEX IO, que se comunica com AWS API Gateway.
 
 ## Preview
 
-É possível conferir a loja [aqui.](https://github.com/MichelSilvas/vtex-io-aws/blob/master/docs/assets/screencapture-ricardo-hiringcoders202114-myvtex-2021-08-30-17_20_01.png?raw=true)
+É possível conferir a loja [aqui.](https://hiringcoders202114.myvtex.com/)
 
-![aws-store](img)
+![aws-store](https://raw.githubusercontent.com/MichelSilvas/vtex-io-aws/master/docs/assets/screencapture-ricardo-hiringcoders202114-myvtex-2021-08-30-17_20_01.pngg)
 
 ## Pre-requisitos
 - [Git](https://git-scm.com)
