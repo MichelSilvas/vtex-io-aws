@@ -1,0 +1,7 @@
+{
+  "extends": "vtex-react/io",
+  "rules": {
+    "@typescript-eslint/naming-convention": "warn",
+    "@typescript-eslint/camelcase": "off"
+  }
+}

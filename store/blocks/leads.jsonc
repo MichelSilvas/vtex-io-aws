@@ -1,74 +1,72 @@
 {
-  "store.custom#leads" : {
-    "children" : [
+  "store.custom#leads": {
+    "children": [
       "flex-layout.row#leadsContainer"
     ]
   },
-  "flex-layout.row#leadsContainer" : {
-    "props" : {
-      "blockClass" : "containerLeads",
-      "fullWidth" : true
+  "flex-layout.row#leadsContainer": {
+    "props": {
+      "blockClass": "containerLeads",
+      "fullWidth": true
     },
-    "children" : [
+    "children": [
       "flex-layout.col#containerLeadsCol"
     ]
   },
   "flex-layout.col#containerLeadsCol": {
-    "props":{
-      "blockClass" : "containerLeadsCol"
+    "props": {
+      "blockClass": "containerLeadsCol"
     },
-    "children":[
+    "children": [
       "flex-layout.row#leadsTextContainer",
       "flex-layout.row#leadsForm"
     ]
   },
-  "flex-layout.row#leadsTextContainer" : {
-    "props" : {
-      "blockClass" : "flexLeadsContainerTextContainer"
+  "flex-layout.row#leadsTextContainer": {
+    "props": {
+      "blockClass": "flexLeadsContainerTextContainer"
     },
-    "children" : [
+    "children": [
       "flex-layout.col#leadsText"
     ]
   },
-  "flex-layout.col#leadsText" : {
-    "props" : {
-      "blockClass" : "flexLeadsContainerText",
-      "horizontalAlign" : "center"
+  "flex-layout.col#leadsText": {
+    "props": {
+      "blockClass": "flexLeadsContainerText",
+      "horizontalAlign": "center"
     },
-    "children" : [
+    "children": [
       "rich-text#leadsTitle",
       "rich-text#leadsSubTitle"
     ]
   },
-  
-  "flex-layout.row#leadsForm" : {
-    "props" : {
-      "blockClass" : "flexLeadsContainerForm",
-      "textPosition" : "CENTER",
-      "textAlignment" : "CENTER"
+  "flex-layout.row#leadsForm": {
+    "props": {
+      "blockClass": "flexLeadsContainerForm",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     },
-    "children" : [
-      "newsletter-form"
+    "children": [
+      "lead-form"
     ]
   },
-  "rich-text#leadsTitle" : {
-    "props" : {
-      "text" : "### Cadastre-se na nossa lista",
-      "textColor" : "c-muted-5",
-      "blockClass" : "leadsTitle"
+  "rich-text#leadsTitle": {
+    "props": {
+      "text": "### Cadastre-se na nossa lista",
+      "textColor": "c-muted-5",
+      "blockClass": "leadsTitle"
     }
   },
-  "rich-text#leadsSubTitle" : {
-    "props" : {
-      "text" : "#### Receba promoções antes de todos",
-      "textColor" : "c-muted-5",
-      "blockClass" : "leadsSubTitle"
+  "rich-text#leadsSubTitle": {
+    "props": {
+      "text": "#### Receba promoções antes de todos",
+      "textColor": "c-muted-5",
+      "blockClass": "leadsSubTitle"
     }
   },
-
   "newsletter-form": {
-    "props" : {
-      "blockClass" : "leadsForm"
+    "props": {
+      "blockClass": "leadsForm"
     },
     "children": [
       "newsletter-input-email",
