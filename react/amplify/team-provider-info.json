@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-formularioleads-dev-183106-authRole",
+      "UnauthRoleArn": "arn:aws:iam::737345711370:role/amplify-formularioleads-dev-183106-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::737345711370:role/amplify-formularioleads-dev-183106-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-formularioleads-dev-183106-deployment",
+      "UnauthRoleName": "amplify-formularioleads-dev-183106-unauthRole",
+      "StackName": "amplify-formularioleads-dev-183106",
+      "StackId": "arn:aws:cloudformation:us-east-2:737345711370:stack/amplify-formularioleads-dev-183106/97fc99b0-09d9-11ec-b280-023abc9c34d4",
+      "AmplifyAppId": "d3vn9iva1zxxim"
+    },
+    "categories": {
+      "function": {
+        "leadformulario": {
+          "deploymentBucketName": "amplify-formularioleads-dev-183106-deployment",
+          "s3Key": "amplify-builds/leadformulario-464246654a307a45386c-build.zip"
+        }
+      }
+    }
+  }
+}
