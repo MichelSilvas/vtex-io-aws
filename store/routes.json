@@ -1,6 +1,6 @@
 {
   "store.custom#about-us": {
-  "path": "/about-us"
+    "path": "/about-us"
   },
   "store.custom#faq": {
     "path": "/faq"
@@ -20,8 +20,7 @@
   "store.custom#analises": {
     "path": "/products/analises"
   },
-  "store.custom#integracao" : {
+  "store.custom#integracao": {
     "path": "/products/aplicacoes"
   }
 }
- 

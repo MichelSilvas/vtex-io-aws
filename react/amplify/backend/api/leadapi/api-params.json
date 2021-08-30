@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/contacts",
+      "lambdaFunction": "leadformulario",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/contacts"
+    }
+  ],
+  "resourceName": "leadapi",
+  "apiName": "leadapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "leadformulario"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-formularioleads-dev-183106-authRole",
+    "unAuthRoleName": "amplify-formularioleads-dev-183106-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "leadformulario",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
