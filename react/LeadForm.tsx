@@ -23,7 +23,7 @@ function LeadForm() {
             <Form.Control placeholder="Telefone" />
           </Form.Group>
           <br />
-          <Button className={styles.botao}>Receba seu cupom!</Button>
+          <Button className={styles.botao}>Cadastre-se</Button>
           <br />
         </Form>
       </div>
