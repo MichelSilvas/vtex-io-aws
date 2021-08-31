@@ -12,7 +12,7 @@
   },
   "rich-text#shelf-title": {
     "props": {
-      "text": "## PRODUTOS 9999",
+      "text": "## PRODUTOS",
       "textColor": "c-action-secondary",
       "blockClass": "title-products"
     }
