@@ -35,6 +35,14 @@ Para visualizar no navegador use
 ```bash
 vtex browse
 ```
+## API Gateway
+- path: https://z0c0di4bg2.execute-api.us-east-2.amazonaws.com/dev
+### end points
+- GET /contacts
+- POST /contacts
+- GET /contacts/{id}
+- PUT /contacts/{id}
+- DELETE /contacts/{id}
 
 ## Equipe
 - [Ricardo de Andrade Maia](https://github.com/RicardoAndradeM)
