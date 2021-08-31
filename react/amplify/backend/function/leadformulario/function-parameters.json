@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "leadsdata": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
