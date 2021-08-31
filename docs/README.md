@@ -9,7 +9,7 @@ Loja com temática AWS, criada com VTEX IO, que se comunica com AWS API Gateway.
 
 É possível conferir a loja [aqui.](https://hiringcoders202114.myvtex.com/)
 
-![aws-store](img)
+![aws-store](https://raw.githubusercontent.com/MichelSilvas/vtex-io-aws/master/docs/assets/screencapture-ricardo-hiringcoders202114-myvtex-2021-08-30-17_20_01.png)
 
 ## Pre-requisitos
 - [Git](https://git-scm.com)
@@ -35,7 +35,7 @@ Para visualizar no navegador use
 vtex browse
 ```
 
-## Dependencias
+## Dependências
 
 Store framework is the baseline to create any store using _VTEX IO Web Framework_.
 
