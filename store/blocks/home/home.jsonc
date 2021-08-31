@@ -6,14 +6,13 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#regions",
-      "rich-text#regions2", 
-      "image#regions-home"     
-
+      "rich-text#regions2",
+      "image#regions-home"
     ]
   },
   "rich-text#shelf-title": {
     "props": {
-      "text": "## PRODUTOS",
+      "text": "## PRODUTOS 9999",
       "textColor": "c-action-secondary",
       "blockClass": "title-products"
     }
@@ -63,12 +62,12 @@
   "image#regions": {
     "props": {
       "src": "https://a0.awsstatic.com/libra-css/images/gi-map/AWS_Global-Infrastructure-Map.svg"
-      }
-      },
-      "image#regions-home": {
+    }
+  },
+  "image#regions-home": {
     "props": {
-     "src": "assets/imagens/mapaws.jpg",
-     "blockClass":"regions"
+      "src": "assets/imagens/mapaws.jpg",
+      "blockClass": "regions"
     }
   }
 }

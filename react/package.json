@@ -5,6 +5,8 @@
     "test": "vtex-test-tools test"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^1.2.11",
+    "aws-amplify": "^4.2.5",
     "eslint": "^7.32.0",
     "eslint-import-resolver-typescript": "^2.4.0",
     "react": "^16.12.0",
