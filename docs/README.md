@@ -39,9 +39,9 @@ vtex browse
 ## Equipe
 - [Ricardo de Andrade Maia](https://github.com/RicardoAndradeM)
 - [Albino Aveleda]()
-- [Eduardo de Assis Duarte]()
+- [Eduardo de Assis Duarte](https://github.com/edu-duarte)
 - [Marcos Paulo Monteiro da Silva]()
-- [MICHEL SCHONFELDT]()
+- [MICHEL SCHONFELDT](https://github.com/michelsilvas)
 - [RAFAEL GREGORINI]()
 - [Ruth Kimball]()
 - [Tulio Santana Ramos]()
