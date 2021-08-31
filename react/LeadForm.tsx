@@ -51,7 +51,7 @@ function LeadForm() {
             <Form.Control placeholder="Telefone" onChange={e => updateFormState('phone', e.target.value)} />
           </Form.Group>
           <br />
-          <Button className={styles.botao} onClick={addContact}>Receba seu cupom!</Button>
+          <Button className={styles.botao} onClick={addContact}>Cadastre-se</Button>
           <br />
         </Form>
       </div>
